@@ -19,23 +19,6 @@ You can view an example HTML report by clicking the link below:
 pip install git+https://github.com/dmitrydnk1/Tool_Reporter_Lib.git
 ```
 
-## Installation
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/dmitrydnk1/Tool_Reporter_Lib.git
-    ```
-2. Navigate to the project directory:
-
-    ```bash
-    cd repository
-    ```
-3. Install with required dependencies:
-
-    ```bash
-    pip install .
-    ```
-
 ## Code Examples:
 For more examples, please refer to the [Code Examples Floder](examples/) with:
 
@@ -43,11 +26,11 @@ For more examples, please refer to the [Code Examples Floder](examples/) with:
 
 2. [Basic Reporter Example](examples/basic_report_generation.py)
     
-    > [Link to Basic Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/basic_report_(0001).html)
+    > [Link to View Basic Report from example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/basic_report_(0001).html)
 
 3. [Detailed Reporter Example](examples/detailed_report_eneration.py)
     
-    > [Link to Detailed Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/my_report_(0015).html)
+    > [Link to View Detailed Report from example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/my_report_(0015).html)
 
 
 ## Generated Report Example
