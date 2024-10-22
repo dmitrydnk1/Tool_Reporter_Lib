@@ -8,6 +8,10 @@ The Tool Reporter Library is a Python library designed to generate detailed HTML
 - Add text, plots, DataFrames, show/hide regions and code blocks to the report.
 - New reports with same name stored with nex index and created date-time, and automatically can be opened. (e.g. rprt, rprt_01, rprt_02, ..)
 
+## View Example Report
+You can view an example HTML report by clicking the link below:
+
+> [Open Example Report (Click to View)](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
 
 ## Installation
 1. Clone the repository:
@@ -39,16 +43,12 @@ For more examples, please refer to the [Code Examples Floder](examples/) with:
     
     > [Link to Detailed Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/my_report_(0015).html)
 
-## View Example Report
-You can view an example HTML report by clicking the link below:
-
-> [Open Example Report (Click to View)](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
 
 ## Generated Report Example
 ![Report Example](assets/reporter_exmpl.png)
 
 
-[Example Folder](assets/)
+> [Example Folder](assets/)
 
 ## Usage
 Here's a basic example of how to use the Tool Reporter Library to generate a report:
