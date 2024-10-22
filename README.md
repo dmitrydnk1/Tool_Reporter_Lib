@@ -29,24 +29,26 @@ The Tool Reporter Library is a Python library designed to generate detailed HTML
 ## Code Examples:
 For more examples, please refer to the [Code Examples Floder](examples/) with:
 
-- [1-st Step: Reporter Configuration](examples/1-step_initial_CFG_setup.py)
+1. [1-st Step: Reporter Configuration](examples/1-step_initial_CFG_setup.py)
 
-- [Basic Reporter Example](examples/basic_report_generation.py)
-    - [Link to Basic Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/basic_report_(0001).html)
+2. [Basic Reporter Example](examples/basic_report_generation.py)
+    
+    > [Link to Basic Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/basic_report_(0001).html)
 
-- [Detailed Reporter Example](examples/detailed_report_eneration.py)
-    - [Link to Detailed Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/my_report_(0015).html)
+3. [Detailed Reporter Example](examples/detailed_report_eneration.py)
+    
+    > [Link to Detailed Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/my_report_(0015).html)
 
 ## View Example Report
 You can view an example HTML report by clicking the link below:
 
-[View Example Report](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
-
-[Example Folder](assets/)
+> [Open Example Report (Click to View)](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
 
 ## Generated Report Example
 ![Report Example](assets/reporter_exmpl.png)
 
+
+[Example Folder](assets/)
 
 ## Usage
 Here's a basic example of how to use the Tool Reporter Library to generate a report:
