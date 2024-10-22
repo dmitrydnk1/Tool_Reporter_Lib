@@ -53,10 +53,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Create a report object
-report = ReportHTML(title='My Report', use_title_background=True, open_saved_file=True)
+report = ReportHTML(title = 'My Report')
 
 # Add a title
-report.add_title('Welcome Title', h_level=1, use_center=True)
+report.add_title('Welcome Title', h_level = 1, use_center = True)
 
 # Add some text
 report.add_text('Hello, this is a small text.')
@@ -66,7 +66,7 @@ x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
 plt.plot(x, y)
-report.add_plot(plt, use_fullwidth=False)
+report.add_plot(plt, use_fullwidth = False)
 
 # Save the report
 report.save()
