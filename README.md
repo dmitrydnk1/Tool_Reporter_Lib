@@ -13,6 +13,12 @@ You can view an example HTML report by clicking the link below:
 
 > [Open Example Report (Click to View)](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
 
+## Installation by pip
+
+```bash
+pip install git+https://github.com/dmitrydnk1/Tool_Reporter_Lib.git
+```
+
 ## Installation
 1. Clone the repository:
 
