@@ -24,11 +24,11 @@ For more examples, please refer to the [Code Examples Floder](examples/) with:
 
 1. [1-st Step: Reporter Configuration](examples/1-step_initial_CFG_setup.py)
 
-2. [Basic Reporter Example](examples/basic_report_generation.py)
+2. [Code: Basic Reporter Example](examples/basic_report_generation.py)
     
     > [Link to View Basic Report from example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/basic_report_(0001).html)
 
-3. [Detailed Reporter Example](examples/detailed_report_eneration.py)
+3. [Code: Detailed Reporter Example](examples/detailed_report_eneration.py)
     
     > [Link to View Detailed Report from example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/my_report_(0015).html)
 
