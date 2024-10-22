@@ -25,7 +25,7 @@ The Tool Reporter Library is a Python library designed to generate detailed HTML
     ```
 
 ## Code Examples:
-For more examples, please refer to the [Examples Floder](examples/) with:
+For more examples, please refer to the [Code Examples Floder](examples/) with:
 
 - [1-st Step: Reporter Configuration](examples/1-step_initial_CFG_setup.py)
 - [Basic Reporter Example](examples/basic_report_generation.py)
@@ -34,17 +34,20 @@ For more examples, please refer to the [Examples Floder](examples/) with:
 ## Download Example Report
 You can download an example HTML report by clicking the link below:
 
+Use the right mouse click -> 'Save link as'
 [Download Example Report](https://github.com/dmitrydnk1/Tool_Reporter_Lib/raw/main/assets/QQQ_osc_EXPLORE.html)
+
+[Example Folder](assets/)
 
 
 ## Generated Report Example
-![Report Example](assets/reporter_example.png)
+![Report Example](assets/reporter_exmpl.png)
 
 
 ## Usage
 Here's a basic example of how to use the Tool Reporter Library to generate a report:
 
-'''python
+```python
 from tool_reporter_lib import ReportHTML
 import matplotlib.pyplot as plt
 import numpy as np
