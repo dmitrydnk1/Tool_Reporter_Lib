@@ -1,4 +1,4 @@
-# Tool Reporter Library
+# Tool Reporter Library (Easy-to-use Generator of HTML Reports)
 
 The Tool Reporter Library is a Python library designed to generate detailed HTML reports. It is easy to use and allows you to create comprehensive reports with various types of content, including text, plots, DataFrames, and more.
 
