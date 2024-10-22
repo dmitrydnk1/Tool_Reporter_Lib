@@ -9,17 +9,19 @@ The Tool Reporter Library is a Python library designed to generate detailed HTML
 - New reports with same name stored with nex index and created date-time, and automatically can be opened. (e.g. rprt, rprt_01, rprt_02, ..)
 
 
-
 ## Installation
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/dmitrydnk1/Tool_Reporter_Lib.git
     ```
 2. Navigate to the project directory:
+
     ```bash
     cd repository
     ```
 3. Install with required dependencies:
+
     ```bash
     pip install .
     ```
@@ -28,17 +30,19 @@ The Tool Reporter Library is a Python library designed to generate detailed HTML
 For more examples, please refer to the [Code Examples Floder](examples/) with:
 
 - [1-st Step: Reporter Configuration](examples/1-step_initial_CFG_setup.py)
+
 - [Basic Reporter Example](examples/basic_report_generation.py)
+    - [Link to Basic Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/basic_report_(0001).html)
+
 - [Detailed Reporter Example](examples/detailed_report_eneration.py)
+    - [Link to Detailed Report Example](https://dmitrydnk1.github.io/Tool_Reporter_Lib/my_report_(0015).html)
 
-## Download Example Report
-You can download an example HTML report by clicking the link below:
+## View Example Report
+You can view an example HTML report by clicking the link below:
 
-Use the right mouse click -> 'Save link as'
-[Download Example Report](https://github.com/dmitrydnk1/Tool_Reporter_Lib/raw/main/assets/QQQ_osc_EXPLORE.html)
+[View Example Report](https://dmitrydnk1.github.io/Tool_Reporter_Lib/assets/QQQ_osc_EXPLORE.html)
 
 [Example Folder](assets/)
-
 
 ## Generated Report Example
 ![Report Example](assets/reporter_exmpl.png)
