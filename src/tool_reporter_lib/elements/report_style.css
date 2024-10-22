@@ -1,0 +1,556 @@
+.grid_2,
+.grid_5,
+.grid_3,
+.grid_10,
+.grid_6,
+.grid_8,
+.grid_4 {
+    display     : inline;
+    float       : left;
+    position    : relative;
+    margin-left : 15px;
+    margin-right: 15px;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+.alpha {
+    margin-left: 0;
+}
+
+.grid_12 {
+    margin: 0 auto;
+    width : 1170px;
+}
+
+.grid_10 {
+    width: 970px;
+}
+
+.grid_6 {
+    width: 570px;
+}
+
+.grid_8 {
+    width: 770px;
+}
+
+.grid_4 {
+    width: 370px;
+}
+
+.grid_3 {
+    width: 270px;
+}
+
+.grid_5 {
+    width: 470px;
+}
+
+.grid_2 {
+    width: 170px;
+}
+
+.right {
+    float: right;
+}
+
+img,
+a {
+    outline: none;
+    border : 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing : 0;
+    width          : 100%;
+}
+
+
+img {
+    vertical-align: top;
+}
+
+.red {
+    color: #ed1c25;
+}
+
+p {
+    margin : 0;
+    padding: 0 0 18px;
+}
+
+.row {
+    width   : 100%;
+    overflow: hidden;
+}
+
+body {
+    margin    : 0;
+    font      : 14px/18px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    color     : #333;
+    background: #fff;
+    width     : 100%;
+    min-width : 1170px;
+}
+
+#header {
+    width           : 100%;
+    overflow        : hidden;
+    padding         : 24px 0 24px;
+    margin          : 0 0 40px;
+}
+
+
+#header .title {
+    margin: 18px 0 0 0;
+    font  : 34px/36px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    color : #111;    
+}
+
+#header .subtitle {
+    font   : 24px/26px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 0 10px;
+    margin : 27px 0 0 0;
+    color  : #111    
+}
+
+#header a {
+    margin: 0 0 0 30px;
+}
+
+#header .st {
+    margin-top: 11px;
+}
+
+.content {
+    width   : 100%;
+    overflow: hidden;
+}
+
+.content h1 {
+    font   : bold 44px/48px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 0 10px;
+    margin : 27px 20px 0 0;
+    color  : #111;
+}
+
+.content h2 {
+    font   : bold 30px/36px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 0 10px;
+    margin : 27px 20px 0 0;
+    color  : #111;
+}
+
+.content h3 {
+    font   : bold 20px/24px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 0 10px;
+    margin : 27px 20px 0 0;
+    color  : #111;
+}
+
+
+
+h2 .info {
+    float : right;
+    font  : 14px/19px Arial, Helvetica, sans-serif;
+    margin: 11px 0 0 0;
+}
+
+h2 .info img {
+    margin: 0 10px 0 0;
+}
+
+/* Graph */
+.graph-item,
+.graph {
+    width           : 100%;
+    overflow        : hidden;
+    margin          : auto;
+    padding         : 0;
+    background-color: white;
+    border          : none;
+    border-radius   : 6px;
+    transition      : box-shadow 0.3s;    
+}
+
+.graph:hover {
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1);    
+}
+
+
+.graph-info {
+    padding : 0 0 0 70px;
+    overflow: hidden;
+}
+
+.top-margin {
+    margin: 21px 0 0 0;
+}
+
+.right-graph-info {
+    padding: 0;
+}
+
+.graph-group h3,
+.graph h3 {
+    font   : bold 20px/22px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    margin : 0;
+    padding: 0 0 17px;
+}
+
+.last-graph {
+    padding: 20px 0 17px;
+}
+
+.last.graph {
+    padding: 0;
+}
+
+.graph-group span,
+.graph span {
+    font     : 16px/18px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    color    : #606a70;
+    margin   : 0 0 7px 0;
+    float    : left;
+    min-width: 121px;
+}
+
+.graph-group span img,
+.graph span img {
+    margin        : 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.right-graph-info span {
+    font-size: 14px;
+    margin   : 0 0 7px;
+}
+
+/* df table */
+.minimalistic-style-table {
+    width           : 98%;
+    margin          : auto;
+    box-sizing      : border-box;
+    border-collapse : collapse;
+    font-family     : Arial, sans-serif;
+    color           : #333;
+    font-size       : 0.9em;
+    background-color: #fff;
+    box-shadow      : 0 2px 3px rgba(0, 0, 0, 0.1);
+    margin          : 25px 0;
+}
+
+.minimalistic-style-table th,
+.minimalistic-style-table td {
+    text-align         : left;
+    padding            : 12px 15px;
+    border-bottom      : 1px solid #ddd;
+    z-index            : 2;    
+}
+
+.minimalistic-style-table th {
+    background-color: #f0f0f0;
+    color           : #333;
+}
+
+.minimalistic-style-table td.index-column {
+    background-color: #f2f2f2;    
+}
+
+.minimalistic-style-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.minimalistic-style-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+@media print {
+    #header {
+        margin : 0 0 20px;
+        padding: 0 0 24px;
+    }
+
+    .row {
+        page-break-inside: avoid;
+    }
+
+    .graph {
+        page-break-inside: avoid;
+    }
+
+    .graph-group {
+        page-break-before: always;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+@media print and (orientation:portrait) {
+    .grid_12 {
+        width  : 92%;
+        padding: 0;
+        margin : 0;
+    }
+
+    .grid_10 {
+        width: 940px;
+    }
+
+    .grid_6 {
+        width: 520px;
+    }
+
+    .grid_8 {
+        width: 700px;
+    }
+
+    .grid_4 {
+        width: 340px;
+    }
+
+    .grid_3 {
+        width: 230px;
+    }
+
+    .grid_5 {
+        width: 430px;
+    }
+
+    .grid_2 {
+        width: 130px;
+    }
+
+}
+
+@media print and (orientation:landscape) {
+
+    table {
+        margin: 0 0 10px;
+    }
+
+    table span {
+        font: bold 18px/20px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+
+    .content h2 {
+        font  : bold 20px/22px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+        margin: 14px 0 0 0;
+    }
+}
+
+/* Code Part */
+pre {
+    padding         : 1em;
+    margin          : 0.5em 0;
+    overflow        : auto;
+    border-radius   : 6px;    
+    border          : none;    
+    background-color: #ffffff;
+}
+
+pre:hover {
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1);    
+}
+
+/* Show Hide Button */
+
+.section {
+    margin-bottom: 20px;
+}
+
+.toggle-button {
+    background-color: #f2f2f2;    
+    color           : #333333;    
+    border          : none;    
+    border-radius   : 6px;    
+    padding         : 12px 24px;    
+    cursor          : pointer;
+    font-size       : 16px;    
+    transition      : background-color 0.3s, color 0.3s;    
+    margin          : 10px auto;    
+    display         : block;    
+    width           : 80%;    
+    max-width       : 1170px;    
+    font-weight     : bold;    
+    text-align      : center;    
+    box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.1);    
+}
+
+.toggle-button:hover {
+    background-color: #e6e6e6;    
+    color           : #1a1a1a;    
+}
+
+/* Simplified Content Area Style */
+.content_show_hide {
+    display         : none;
+    padding         : 20px;
+    border          : none;    
+    border-radius   : 6px;    
+    margin          : 10px 0;    
+    background-color: #fafafa;    
+    box-shadow      : 0 2px 6px rgba(0, 0, 0, 0.05);    
+}
+
+/* Alert Box */
+/* Base style for all alert boxes, minimalistic design */
+.alert-box {
+    background-color: #f7f7f7;    
+    border-radius   : 5px;    
+    padding         : 15px 20px;
+    font-size       : 15px;
+    color           : #1d1d1f;
+    box-shadow      : 0 4px 8px rgba(0, 0, 0, 0.05);
+    display         : flex;
+    align-items     : center;
+    gap             : 12px;
+    font-family     : "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin          : 15px 0;
+    transition      : background-color 0.3s, box-shadow 0.3s;    
+}
+
+/* Hover effect */
+.alert-box:hover {
+    background-color: #ffffff;
+    box-shadow      : 0 6px 12px rgba(0, 0, 0, 0.1);    
+}
+
+/* Styles for specific alert types with subtle color accents */
+.info-box {
+    border-left: 8px solid #007aff;
+}
+
+/*  blue for information */
+.warning-box {
+    border-left: 8px solid #ff9500;
+}
+
+/*  orange for warning */
+.note-box {
+    border-left: 8px solid #34c759;
+}
+
+/*  green for notes */
+.error-box {
+    border-left: 8px solid #ff3b30;
+}
+
+/*  red for errors */
+
+/* Style for emojis inside alert boxes */
+.alert-box .emoji {
+    font-size     : 22px;
+    vertical-align: middle;    
+}
+
+
+
+/* Param val Style Table */
+
+.param-val-style-table {
+    border-collapse  : collapse;
+    border-spacing   : 0;
+    border-radius    : 3px;
+    margin           : 25px auto;
+    font-size        : 1.1em;
+    min-width        : 400px;
+    box-shadow       : 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow         : hidden;
+
+}
+
+.param-val-style-table thead tr {
+    background-color: #009879;
+    color           : #ffffff;
+    text-align      : left;
+}
+
+.param-val-style-table th:first-child,
+.param-val-style-table td:first-child {
+    width: 30%;    
+}
+
+.param-val-style-table th,
+.param-val-style-table td {
+    padding   : 12px 15px;
+    text-align: left;
+    font-size : 1.0em;
+}
+
+.param-val-style-table th {
+    background-color: #009879;
+    color           : #F5F5F5;
+    font-weight     : normal;
+}
+
+.param-val-style-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.param-val-style-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.param-val-style-table tbody tr:nth-of-type(even) {
+    background-color: #f4f4f4;
+}
+
+.param-val-style-table tbody tr:hover {
+    background-color: #d5f4e6;    
+}
+
+.param-val-style-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.param-val-style-table tbody td {
+    font-size: 1.0em;
+}
+
+/*   Param Value Grid: */
+
+/* Style for param-value elements */
+
+.param-value-element {
+    display           : flex;
+    flex-wrap         : wrap;
+    justify-content   : flex-start;
+    margin-bottom     : 20px;
+    font              : 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.param-value-caption {
+    color     : #111;
+    text-align: left;
+    width     : 100%;
+    font      : 17px/24px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif
+}
+
+.param-value-text {
+    color        : #444;
+    text-align   : left;
+    font         : 40px / 44px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;    
+}
+
+.param-value-text-long {
+    font: 24px / 28px 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;    
+}
+
+.param-value-item {
+    margin    : 10px;
+    flex-basis: calc(25% - 20px);
+    text-align: left;
+}

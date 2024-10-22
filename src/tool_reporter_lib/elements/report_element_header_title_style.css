@@ -1,0 +1,98 @@
+.parallax {
+    position: relative;
+    height: 250px;
+    background: linear-gradient(135deg, {{color1}}, {{color2}}), 
+                linear-gradient(45deg, {{color3}}, {{color4}});
+    background-blend-mode: screen;
+    background-size: 400% 400%;
+    animation: gradientAnimation 60s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.shape_A, .shape_B, .shape_C {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: floatShape 20s ease-in-out infinite;
+}
+
+.shape_A {
+    width: {{shape_a_size}}px;
+    height: {{shape_a_size}}px;
+    top: {{shape_a_top}}%;
+    left: {{shape_a_left}}%;
+    animation-duration: 30s;
+    animation-delay: -5s;
+}
+
+.shape_B {
+    width: {{shape_b_size}}px;
+    height: {{shape_b_size}}px;
+    top: {{shape_b_top}}%;
+    left: {{shape_b_left}}%;
+    animation-duration: 40s;
+    animation-delay: -10s;
+}
+
+.shape_C {
+    width: {{shape_c_size}}px;
+    height: {{shape_c_size}}px;
+    top: {{shape_c_top}}%;
+    left: {{shape_c_left}}%;
+    animation-duration: 35s;
+    animation-delay: -15s;
+}
+
+@keyframes floatShape {
+    0% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+    25% {
+        transform: translateY(-20px) translateX(20px) scale(1.1);
+    }
+    50% {
+        transform: translateY(20px) translateX(-20px) scale(1.05);
+    }
+    75% {
+        transform: translateY(-10px) translateX(10px) scale(1);
+    }
+    100% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+}
+
+.parallax-content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #222222;        
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #222222;        
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+}

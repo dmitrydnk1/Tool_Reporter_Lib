@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+
+# Include the CSS, HTML, JS file
+recursive-include src/tool_reporter_lib/elements *.css
+recursive-include src/tool_reporter_lib/elements *.html
+recursive-include src/tool_reporter_lib/elements *.js
+
+# Include the favicon
+recursive-include src/tool_reporter_lib/report_favicon *.txt
